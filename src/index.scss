@@ -16,6 +16,13 @@ code {
   color: red;
 }
 
+.PokemonList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 40px;
+}
+
 .App {
   .list {
     display: flex;
