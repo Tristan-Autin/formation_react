@@ -16,13 +16,6 @@ code {
   color: red;
 }
 
-.PokemonList{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 40px;
-}
-
 .App {
   .list {
     display: flex;
@@ -55,4 +48,25 @@ code {
     color: unset;
     font-size: 1.5rem;
   }
+}
+
+.PokemonList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Filters {
+  display: flex;
+
+  .filter {
+    margin: 0 0.5rem;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+.trained {
+  display: flex;
 }
